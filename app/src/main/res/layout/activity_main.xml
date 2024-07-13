@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.openinghoursview.OpeningHoursView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:day="@string/Sunday"
+        app:openHours="11:30"
+        app:dayTextColor="@color/green"
+        app:openHoursTextColor="@color/red"
+        app:closeHoursTextColor="@color/brown"
+        app:dayTextSize="20dp"
+        app:openHoursTextSize="30dp"
+        app:openTitleTextSize="20dp"
+        app:closeTitleTextSize="20dp"/>
+
+</FrameLayout>

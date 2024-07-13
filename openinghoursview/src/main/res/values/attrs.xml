@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OpeningHoursView">
+        <attr name="day" format="string" />
+        <attr name="openHours" format="string" />
+        <attr name="closeHours" format="string" />
+        <attr name="dayTextColor" format="color" />
+        <attr name="openHoursTextColor" format="color" />
+        <attr name="closeHoursTextColor" format="color" />
+        <attr name="dayTextSize" format="dimension" />
+        <attr name="openHoursTextSize" format="dimension" />
+        <attr name="closeHoursTextSize" format="dimension" />
+        <attr name="openTitleTextSize" format="dimension" />
+        <attr name="closeTitleTextSize" format="dimension" />
+
+    </declare-styleable>
+</resources>
